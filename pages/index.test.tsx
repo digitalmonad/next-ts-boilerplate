@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import Home from '../pages/index'
-import '@testing-library/jest-dom'
+import Home from './index.page'
 
 describe('Home', () => {
   it('renders a greeting', () => {

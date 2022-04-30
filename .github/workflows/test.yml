@@ -30,6 +30,8 @@ jobs:
 
       - name: Cypress.io
         uses: cypress-io/github-action@v2
+
         with:
           start: yarn start
+          browser: firefox
           wait-on: 'http://localhost:3000'
